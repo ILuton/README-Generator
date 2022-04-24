@@ -25,25 +25,30 @@ ${data.install}
 ## Usage
 ${data.usage}
 
-![alt text](${screeenshot})
+![alt text](${data.screeenshot})
 
 ## Credits
 ${data.contributors}
 
 ## License 
+[![Generic badge](https://img.shields.io/badge/license-${data.license}-<COLOR>.svg)](https://shields.io/)
 
-## Badges
+${data.license}
+See file in the directory for more licensing information
 
 ## Features
-${features}
+${data.features}
 
-## How to Contribute
-${contributing}
+## Contributing
+${data.contributing}
 
 
 ## Tests
 ${data.tests}
 
+## Questions
+
+If you have any other questions you can contact me through github at https://github.com/${data.github}. My profile name is ${data.github}. Or you can email me at: ${data.email}
 `
 
 
@@ -81,9 +86,10 @@ inquirer
       name: 'credits',
     },
     {
-      type: 'input',
+      type: 'list',
       message: 'Pick a license you would like to include:',
       name: 'license',
+      choices: ["MIT","Apache-2.0","GPL-3.0","BSD-2","BSD-3","BSD-4"]
     },
     {
       type: 'input',
@@ -99,6 +105,16 @@ inquirer
       type: 'input',
       message: 'Enter information on how to run tests for project:',
       name: 'tests',
+     },
+     {
+      type: 'input',
+      message: 'Enter your Github Username:',
+      name: 'github',
+     },
+     {
+      type: 'input',
+      message: 'Enter your Email:',
+      name: 'email',
      },
   ])
   .then((answers) => {
