@@ -11,6 +11,14 @@ ${data.description}
 
 ## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Badges](#badges)
+- [Features](#features)
+- [How to Contribute](#howtocontribute)
+- [Tests](#tests)
+
 ## Installation
 ${data.install}
 
@@ -25,6 +33,8 @@ ${data.contributors}
 ## Features
 
 ## How to Contribute
+
+## Tests
 
 `
 
