@@ -4,15 +4,20 @@
 
 
 
+
+
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [Badges](#badges)
-- [Features](#features)
-- [How to Contribute](#howtocontribute)
-- [Tests](#tests)
+- [README Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
 
 ## Installation
 
