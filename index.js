@@ -12,13 +12,13 @@ ${data.description}
 ## Table of Contents
 
 ## Installation
-${install}
+${data.install}
 
 ## Usage
-${usage}
+${data.usage}
 
 ## Credits
-${contributors}
+${data.contributors}
 
 ## Badges
 
